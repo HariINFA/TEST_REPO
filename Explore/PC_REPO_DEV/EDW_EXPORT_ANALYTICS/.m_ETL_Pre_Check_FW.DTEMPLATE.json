@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "5KlExLKfiCkcXisEReE12i",
+    "name" : "m_ETL_Pre_Check_FW",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000025B"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_ETL_Pre_Check_FW",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-20T09:33:29.898Z",
+  "objectRefs" : [ ]
+}

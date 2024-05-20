@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "dV1dFURN0uGicq80SqT1cR",
+    "name" : "m_CALLAHAN_LOAD_TO_ARC_CALLAHAN_BANK",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000025G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_CALLAHAN_LOAD_TO_ARC_CALLAHAN_BANK",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-20T09:33:29.906Z",
+  "objectRefs" : [ ]
+}

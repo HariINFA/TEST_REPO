@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "gxxYh28UGwQgJUSEzaYpKe",
+    "name" : "m_CALLAHAN_PS_TO_LOAD_CALLAHAN_CU_QTRLY_PTFLIO",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000025H"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_CALLAHAN_PS_TO_LOAD_CALLAHAN_CU_QTRLY_PTFLIO",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-20T09:33:29.899Z",
+  "objectRefs" : [ ]
+}
