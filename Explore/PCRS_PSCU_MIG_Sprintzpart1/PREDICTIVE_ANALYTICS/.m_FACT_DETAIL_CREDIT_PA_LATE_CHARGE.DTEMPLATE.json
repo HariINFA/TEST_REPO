@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "c5kAcaCh0OQc9Et5nB7jM9",
+    "name" : "m_FACT_DETAIL_CREDIT_PA_LATE_CHARGE",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002L4"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_FACT_DETAIL_CREDIT_PA_LATE_CHARGE",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.778Z",
+  "objectRefs" : [ ]
+}

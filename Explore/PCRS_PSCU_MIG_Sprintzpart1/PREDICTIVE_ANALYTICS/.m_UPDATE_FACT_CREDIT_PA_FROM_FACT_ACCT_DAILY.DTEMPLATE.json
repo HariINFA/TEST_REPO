@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "dkgl1j1ZZaWllk7Kbdd8mU",
+    "name" : "m_UPDATE_FACT_CREDIT_PA_FROM_FACT_ACCT_DAILY",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002KV"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_UPDATE_FACT_CREDIT_PA_FROM_FACT_ACCT_DAILY",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.801Z",
+  "objectRefs" : [ ]
+}

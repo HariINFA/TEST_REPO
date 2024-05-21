@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "jeA6KuTL9QqgQqqoUB6gSu",
+    "name" : "m_MKTO_PS_TO_LOAD_ACTIVITY",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002LM"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_MKTO_PS_TO_LOAD_ACTIVITY",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.792Z",
+  "objectRefs" : [ ]
+}

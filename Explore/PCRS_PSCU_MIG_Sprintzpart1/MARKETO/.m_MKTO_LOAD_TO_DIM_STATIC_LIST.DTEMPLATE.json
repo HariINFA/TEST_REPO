@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "585fwEKmy8dh4obuMCyJ4j",
+    "name" : "m_MKTO_LOAD_TO_DIM_STATIC_LIST",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002LA"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_MKTO_LOAD_TO_DIM_STATIC_LIST",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.776Z",
+  "objectRefs" : [ ]
+}

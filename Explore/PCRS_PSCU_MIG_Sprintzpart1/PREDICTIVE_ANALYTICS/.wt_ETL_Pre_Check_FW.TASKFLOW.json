@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "2QNfciuECqji9brhvH01SD",
+    "name" : "wt_ETL_Pre_Check_FW",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "p6vNljLYqBGZkL0-gt-1895584-2024-03-13T06:58:59.243Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "This process updates entries in the JOB_CYCLE and JOB_CYCLE_DETAIL for the current workflow.  If an entry exists where the status is not in ('COMPLETE','ERROR').  The status will be updated to COMPLETE. The updates are in the PRE-SQL for the DUMMY source",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-05-21T17:26:36.789Z",
+  "objectRefs" : [ {
+    "id" : "4kcRZQ6EXARjsEmQGicnWy",
+    "name" : "s_ETL_Pre_Check_FW",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80Z0000000002N8"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This process updates entries in the JOB_CYCLE and JOB_CYCLE_DETAIL for the current workflow.  If an entry exists where the status is not in ('COMPLETE','ERROR').  The status will be updated to COMPLETE. The updates are in the PRE-SQL for the DUMMY source \r\n\r\nFor parameter file generation there are some entries that need to exist in the workflows parameter file.  The stub for the parameter file is created in the session's PRE-Session Command.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/PCRS_PSCU_MIG_Sprintzpart1/PREDICTIVE_ANALYTICS"
+  } ]
+}

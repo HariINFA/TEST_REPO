@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "7bXkAQN82P1bu6m0u1rpwB",
+    "name" : "m_FACT_DETAIL_CREDIT_PA_NAME_CHANGE",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002LH"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_FACT_DETAIL_CREDIT_PA_NAME_CHANGE",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.761Z",
+  "objectRefs" : [ ]
+}

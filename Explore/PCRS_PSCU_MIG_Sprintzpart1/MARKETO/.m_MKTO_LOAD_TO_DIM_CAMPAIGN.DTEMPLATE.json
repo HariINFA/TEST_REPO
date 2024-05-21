@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "01gw1GCkH8WhbZjH9Ndi0q",
+    "name" : "m_MKTO_LOAD_TO_DIM_CAMPAIGN",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002L7"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_MKTO_LOAD_TO_DIM_CAMPAIGN",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.759Z",
+  "objectRefs" : [ ]
+}

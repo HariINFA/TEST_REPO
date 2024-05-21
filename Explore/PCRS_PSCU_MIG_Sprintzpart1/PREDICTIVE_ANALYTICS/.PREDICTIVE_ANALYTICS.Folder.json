@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "34NKqXKpev0lxWCrspVWiw",
+    "name" : "PREDICTIVE_ANALYTICS",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-05-21T17:26:36.782Z",
+  "objectRefs" : [ ]
+}

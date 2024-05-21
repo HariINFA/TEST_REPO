@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "a1ca6qEAzstekAXQVHUFYB",
+    "name" : "m_UPDATE_FACT_CREDIT_PA_FROM_OM_CARD_ACCT_3RDITRTN",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z8170000000002LL"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_UPDATE_FACT_CREDIT_PA_FROM_OM_CARD_ACCT_3RDITRTN",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T17:26:36.784Z",
+  "objectRefs" : [ ]
+}
