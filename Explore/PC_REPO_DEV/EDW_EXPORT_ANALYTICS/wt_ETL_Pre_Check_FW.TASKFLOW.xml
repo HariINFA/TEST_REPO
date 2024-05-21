@@ -1,0 +1,377 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>HALVYxWPQE8jIw8-gt-5761777-2024-02-06T08:19:54.533Z::tf.xml</types1:EntryId>
+      <types1:Name>wt_ETL_Pre_Check_FW-9</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description>This process updates entries in the JOB_CYCLE and JOB_CYCLE_DETAIL for the current workflow.  If an entry exists where the status is not in ('COMPLETE','ERROR').  The status will be updated to COMPLETE. The updates are in the PRE-SQL for the DUMMY source</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>pc2iics_pscu2</types1:CreatedBy>
+      <types1:CreationDate>2024-02-06T08:19:55Z</types1:CreationDate>
+      <types1:ModifiedBy>pc2iics_pscu2</types1:ModifiedBy>
+      <types1:ModificationDate>2024-02-06T16:53:06Z</types1:ModificationDate>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="wt_ETL_Pre_Check_FW"
+                   name="wt_ETL_Pre_Check_FW-9"
+                   overrideAPIName="false">
+            <appliesTo/>
+            <description>This process updates entries in the JOB_CYCLE and JOB_CYCLE_DETAIL for the current workflow.  If an entry exists where the status is not in ('COMPLETE','ERROR').  The status will be updated to COMPLETE. The updates are in the PRE-SQL for the DUMMY source</description>
+            <tags/>
+            <generator>PC2Cloud Workflow Converter v1</generator>
+            <input>
+               <parameter name="FW_DATABASE" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="PMFailureEmailUser" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="PMSuccessEmailUser" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="InputMappingTaskParameterFileDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="InputMappingTaskParameterFileName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field description="" name="FW_DATABASE_output" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <tempFields>
+               <field description="" name="s_ETL_Pre_Check_FW" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:s-ETL-Pre-Check-FW</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                  </options>
+               </field>
+               <field description="" name="PMBadFileDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMCacheDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMExtProcDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMFolderName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue">util:getAssetLocation()</option>
+                  </options>
+               </field>
+               <field description="" name="PMIntegrationServiceName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMLookupFileDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMRepositoryServiceName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMRepositoryUserName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue">util:getUserName()</option>
+                  </options>
+               </field>
+               <field description="" name="PMRootDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMSessionLogDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMSourceFileDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMStorageDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMTargetFileDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMTempDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMWorkflowLogDir" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="PMWorkflowName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue">util:getAssetName()</option>
+                  </options>
+               </field>
+               <field description="" name="PMWorkflowRunId" type="int">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue">util:getProcessId()</option>
+                  </options>
+               </field>
+               <field description="" name="PMWorkflowRunInstanceName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue"/>
+                  </options>
+               </field>
+               <field description="" name="SYSDATE" type="datetime">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue">fn:current-date()</option>
+                  </options>
+               </field>
+               <field description="" name="WORKFLOWSTARTTIME" type="datetime">
+                  <options>
+                     <option name="required">false</option>
+                     <option name="initialvalue">util:getInstanceStartTime()</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest>
+                  <allowedGroups>
+                     <group>INFOADM_BATCH</group>
+                  </allowedGroups>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <title>Start</title>
+                  <link id="lsaks2eu" targetId="lsaks2es"/>
+               </start>
+               <assignment id="lsaks2es">
+                  <title>Assignment_PC_Variables</title>
+                  <operation source="constant" to="temp.PMBadFileDir"/>
+                  <operation source="constant" to="temp.PMCacheDir"/>
+                  <operation source="constant" to="temp.PMExtProcDir"/>
+                  <operation source="formula" to="temp.PMFolderName">
+                     <expression language="XQuery">util:getAssetLocation()</expression>
+                  </operation>
+                  <operation source="constant" to="temp.PMIntegrationServiceName"/>
+                  <operation source="constant" to="temp.PMLookupFileDir"/>
+                  <operation source="constant" to="temp.PMRepositoryServiceName"/>
+                  <operation source="formula" to="temp.PMRepositoryUserName">
+                     <expression language="XQuery">util:getUserName()</expression>
+                  </operation>
+                  <operation source="constant" to="temp.PMRootDir"/>
+                  <operation source="constant" to="temp.PMSessionLogDir"/>
+                  <operation source="constant" to="temp.PMSourceFileDir"/>
+                  <operation source="constant" to="temp.PMStorageDir"/>
+                  <operation source="constant" to="temp.PMTargetFileDir"/>
+                  <operation source="constant" to="temp.PMTempDir"/>
+                  <operation source="constant" to="temp.PMWorkflowLogDir"/>
+                  <operation source="formula" to="temp.PMWorkflowName">
+                     <expression language="XQuery">util:getAssetName()</expression>
+                  </operation>
+                  <operation source="formula" to="temp.PMWorkflowRunId">
+                     <expression language="XQuery">util:getProcessId()</expression>
+                  </operation>
+                  <operation source="constant" to="temp.PMWorkflowRunInstanceName"/>
+                  <operation source="formula" to="temp.SYSDATE">
+                     <expression language="XQuery">fn:current-date()</expression>
+                  </operation>
+                  <operation source="formula" to="temp.WORKFLOWSTARTTIME">
+                     <expression language="XQuery">util:getInstanceStartTime()</expression>
+                  </operation>
+                  <link id="lsaks2ev" targetId="lsaks2eq"/>
+               </assignment>
+               <assignment id="lsaks2eq">
+                  <title>Assignment_PC_Workflow_Parameter_File</title>
+                  <operation source="formula" to="input.InputMappingTaskParameterFileDir">
+                     <expression language="XQuery">if (fn:empty($input.InputMappingTaskParameterFileDir)) then '' else $input.InputMappingTaskParameterFileDir</expression>
+                  </operation>
+                  <operation source="formula" to="input.InputMappingTaskParameterFileName">
+                     <expression language="XQuery">if (fn:empty($input.InputMappingTaskParameterFileName)) then '' else $input.InputMappingTaskParameterFileName</expression>
+                  </operation>
+                  <link id="lsaks2ex" targetId="lsaks2el"/>
+               </assignment>
+               <assignment id="lsaks2f7">
+                  <title>Assignment_Worklet_Outputs</title>
+                  <operation source="field" to="output.FW_DATABASE_output">input.FW_DATABASE</operation>
+                  <link id="lsaks2f8" targetId="c"/>
+               </assignment>
+               <eventContainer id="lsaks2el">
+                  <service id="lsaks2em">
+                     <title>s_ETL_Pre_Check_FW</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Task Name" source="constant" updatable="true">s_ETL_Pre_Check_FW</parameter>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">66J7kzjMPIFhMgCsZcNz4f</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="s-ETL-Pre-Check-FW">temp.s_ETL_Pre_Check_FW</operation>
+                           <operation source="field"
+                                      to="s-ETL-Pre-Check-FW/taskProperties[1]/parameterFileDir">input.InputMappingTaskParameterFileDir</operation>
+                           <operation source="field"
+                                      to="temp.s_ETL_Pre_Check_FW[1]/taskProperties[1]/parameterFileDir">input.InputMappingTaskParameterFileDir</operation>
+                           <operation source="field"
+                                      to="s-ETL-Pre-Check-FW/taskProperties[1]/parameterFileName">input.InputMappingTaskParameterFileName</operation>
+                           <operation source="field"
+                                      to="temp.s_ETL_Pre_Check_FW[1]/taskProperties[1]/parameterFileName">input.InputMappingTaskParameterFileName</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Task_Status">Task Status</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.s_ETL_Pre_Check_FW/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <flow id="lsaks2f0">
+                     <link id="lsaks2f1" targetId="lsaks2el" type="containerLink"/>
+                  </flow>
+                  <flow id="lsaks2f3">
+                     <service id="lsaks2f6">
+                        <title>PostSessionFailureMail_s_ETL_Pre_Check_FW</title>
+                        <serviceName>emailNotificationService</serviceName>
+                        <serviceGUID/>
+                        <serviceInput>
+                           <parameter name="Email To" source="constant">PThimmasani@pscu.com </parameter>
+                           <parameter name="Email Cc" source="constant"/>
+                           <parameter name="Email Subject" source="constant">FAILURE -  %v  -  %n  -  util:getAssetName() </parameter>
+                           <parameter name="Email Content Type" source="constant">text</parameter>
+                           <parameter name="Email Body" source="constant">PowerCenter Integration Service: %v&#xD;
+Folder: %n &#xD;
+Workflow: util:getAssetName() &#xD;
+Session: s_ETL_Pre_Check_FW  &#xD;
+Worklet: util:getAssetName()&#xD;
+&#xD;
+ {$temp.s_ETL_Pre_Check_FW[1]/output[1]/Start_Time} &#xD;
+ {$temp.s_ETL_Pre_Check_FW[1]/output[1]/End_Time} &#xD;
+ %i &#xD;
+&#xD;
+&#xD;
+Session Status:  {$temp.s_ETL_Pre_Check_FW[1]/output[1]/Task_Status} &#xD;
+&#xD;
+ {$temp.s_ETL_Pre_Check_FW[1]/output[1]/Success_Target_Rows} &#xD;
+ {$temp.s_ETL_Pre_Check_FW[1]/output[1]/Failed_Target_Rows} &#xD;
+&#xD;
+Session Log Attached&#xD;
+ %g </parameter>
+                        </serviceInput>
+                        <serviceOutput/>
+                     </service>
+                     <link id="lsaks2f4" targetId="lsaks2el" type="containerLink"/>
+                  </flow>
+                  <link id="lsaks2ez" targetId="lsaks2f7"/>
+                  <link id="lsaks2f2" targetId="lsaks2f0" type="containerLink"/>
+                  <events>
+                     <catch faultField="temp.s_ETL_Pre_Check_FW/fault"
+                            id="lsaks2en"
+                            interrupting="true"
+                            name="error">
+                        <link id="lsaks2f5" targetId="lsaks2f3" type="containerLink"/>
+                     </catch>
+                     <catch faultField="temp.s_ETL_Pre_Check_FW/fault"
+                            id="lsaks2eo"
+                            interrupting="true"
+                            name="warning"/>
+                  </events>
+               </eventContainer>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              xmlns:processObject="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="s-ETL-Pre-Check-FW"
+                              isByCopy="true"
+                              name="s-ETL-Pre-Check-FW">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Input Parameters" name="input" type="reference"/>
+                     <field label="InOut Parameters" name="inout" type="reference"/>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            type="reference"/>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+            </dependencies>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>4C4Mx2dOUs1lCGYU1IlZE4</types1:GUID>
+      <types1:DisplayName>wt_ETL_Pre_Check_FW</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2024-05-21T14:11:47.278Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
