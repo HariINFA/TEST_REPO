@@ -20,7 +20,7 @@
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2024-05-20T09:33:29.897Z",
+  "updateTime" : "2024-05-21T17:27:34.757Z",
   "objectRefs" : [ {
     "id" : "3n9t8AcFxlWiZOoT4pym64",
     "name" : "s_CALLAHAN_LOAD_TO_ARC_CALLAHAN_BANK",
@@ -40,7 +40,7 @@
       "additionalInfo" : {
         "description" : "Session pushed from PC to ICS : s_CALLAHAN_LOAD_TO_ARC_CALLAHAN_BANK",
         "contentType" : "JSON",
-        "documentState" : "VALID"
+        "documentState" : "INVALID"
       }
     },
     "path" : "/Explore/PC_REPO_DEV/EDW_EXPORT_ANALYTICS"

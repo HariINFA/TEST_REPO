@@ -18,12 +18,12 @@
       "additionalInfo" : {
         "description" : "Session pushed from PC to ICS : s_CALLAHAN_LOAD_TO_ARC_CALLAHAN_BANK",
         "contentType" : "JSON",
-        "documentState" : "VALID"
+        "documentState" : "INVALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-05-20T09:33:29.896Z",
+  "updateTime" : "2024-05-21T17:27:34.756Z",
   "objectRefs" : [ {
     "id" : "8O42P19F4ghbBP4ND3G3Sy",
     "name" : "IPS_ICINQ",
@@ -81,7 +81,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "Mapping pushed from PC to ICS : m_CALLAHAN_LOAD_TO_ARC_CALLAHAN_BANK",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
