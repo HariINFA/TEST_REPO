@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "c83zKS8F9UIg3qfM4PtuC0",
+    "name" : "m_BILLING_EXP_VISA_BILLING_STG_VISA_INCENTIVE_CLIENT",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000027Y"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_BILLING_EXP_VISA_BILLING_STG_VISA_INCENTIVE_CLIENT",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T08:38:31.131Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,51 @@
+{
+  "objectInfo" : {
+    "id" : "6rBwNPXn7z7kP1fIvCDSCo",
+    "name" : "m_BILLING_EXP_VISA_BILLING_FF_TO_STG_VISA_INCENTIVE_BILLING_INITIAL_LOAD",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z817000000000286"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_BILLING_EXP_VISA_BILLING_FF_TO_STG_VISA_INCENTIVE_BILLING_INITIAL_LOAD",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T08:38:31.119Z",
+  "objectRefs" : [ {
+    "id" : "jjypfH6k6UphjteKnZxPOh",
+    "name" : "MPLT_MAX_SURROGATE_KEY",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z84000000000000G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet pushed from PC to ICS : MPLT_MAX_SURROGATE_KEY",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/PC_REPO_QA/EDW_Stg_Shared"
+  } ]
+}

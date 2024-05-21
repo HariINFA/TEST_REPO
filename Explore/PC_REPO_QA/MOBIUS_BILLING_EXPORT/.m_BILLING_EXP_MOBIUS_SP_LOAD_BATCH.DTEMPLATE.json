@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "hpFC5Cg7EuZeMAkbm2HEmV",
+    "name" : "m_BILLING_EXP_MOBIUS_SP_LOAD_BATCH",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000027P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_BILLING_EXP_MOBIUS_SP_LOAD_BATCH",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T08:38:31.121Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "jjypfH6k6UphjteKnZxPOh",
+    "name" : "MPLT_MAX_SURROGATE_KEY",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z84000000000000G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet pushed from PC to ICS : MPLT_MAX_SURROGATE_KEY",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T08:38:31.119Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "4TfR5IQkV2flV8DHFexZEN",
+    "name" : "m_BILLING_EXP_VISA_BILLING_STG_INVUE_ITEM_EDW",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z817000000000282"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_BILLING_EXP_VISA_BILLING_STG_INVUE_ITEM_EDW",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-21T08:38:31.122Z",
+  "objectRefs" : [ ]
+}
