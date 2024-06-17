@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "6vSVR1oy9IElUTFRsgkrap",
+    "name" : "s_AVAYA_MOBILE_CHANNEL_PS_PIM_JOB_ACTION",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80Z0000000001PD"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Session pushed from PC to ICS : s_AVAYA_MOBILE_CHANNEL_PS_PIM_JOB_ACTION",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-06-17T14:21:47.438Z",
+  "objectRefs" : [ {
+    "id" : "8O42P19F4ghbBP4ND3G3Sy",
+    "name" : "IPS_ICINQ",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01110V25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "62l7guE8qU1hN5vynhIxcO",
+    "name" : "m_AVAYA_MOBILE_CHANNEL_PS_PIM_JOB_ACTION",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z817000000000242"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_AVAYA_MOBILE_CHANNEL_PS_PIM_JOB_ACTION",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TEST_MASS_UPD/CALLCENTER"
+  }, {
+    "id" : "9BizTBPm5pDl4uJEyTQJcU",
+    "name" : "DBConnection_TD_Teradata",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80B00000000001C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "5bl1fRjz8fWfWNEUkvvLMD",
+    "name" : "DBConnection_Syntelate_Microsoft_SQL_Server",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80B00000000001S"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

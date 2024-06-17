@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "9zcwxD64WLakXb9n32tPUi",
+    "name" : "m_AVAYA_MOBILE_CHANNEL_PS_PIM_CONTACT_ATTEMPTS",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000024I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_AVAYA_MOBILE_CHANNEL_PS_PIM_CONTACT_ATTEMPTS",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-06-17T14:21:47.443Z",
+  "objectRefs" : [ ]
+}

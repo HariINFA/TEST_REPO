@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "0CNfqxQA7GLi541j7AdzWr",
+    "name" : "m_AVAYA_MOBILE_CHANNEL_SQL",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z817000000000247"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_AVAYA_MOBILE_CHANNEL_SQL",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-06-17T14:21:47.467Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "1TJYlSe5rMDeEFAZlrd3om",
+    "name" : "CALLCENTER",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-06-17T14:21:47.460Z",
+  "objectRefs" : [ ]
+}

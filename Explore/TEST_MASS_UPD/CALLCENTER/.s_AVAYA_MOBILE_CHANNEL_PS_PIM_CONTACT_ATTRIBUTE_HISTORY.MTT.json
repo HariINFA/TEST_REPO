@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "8UkrGRvHK43dYDun3GK2uj",
+    "name" : "s_AVAYA_MOBILE_CHANNEL_PS_PIM_CONTACT_ATTRIBUTE_HISTORY",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80Z0000000001P3"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Session pushed from PC to ICS : s_AVAYA_MOBILE_CHANNEL_PS_PIM_CONTACT_ATTRIBUTE_HISTORY",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-06-17T14:21:47.437Z",
+  "objectRefs" : [ {
+    "id" : "8O42P19F4ghbBP4ND3G3Sy",
+    "name" : "IPS_ICINQ",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01110V25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0kzbmAom9h5eD6x1Z7RHeX",
+    "name" : "DBConnection_TPTLOAD_Teradata",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80B00000000001D"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6ZXuxd8yxS6eXgeWWdhueZ",
+    "name" : "m_AVAYA_MOBILE_CHANNEL_PS_PIM_CONTACT_ATTRIBUTE_HISTORY",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z81700000000024N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping pushed from PC to ICS : m_AVAYA_MOBILE_CHANNEL_PS_PIM_CONTACT_ATTRIBUTE_HISTORY",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TEST_MASS_UPD/CALLCENTER"
+  }, {
+    "id" : "5bl1fRjz8fWfWNEUkvvLMD",
+    "name" : "DBConnection_Syntelate_Microsoft_SQL_Server",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114Z80B00000000001S"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
